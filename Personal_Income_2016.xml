@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!--  NoteRef="2" UTCProductionTime="2018-02-02T21:49:18.553" PublicTable="SA1 Personal Income Summary: Personal Income, Population, Per Capita Personal Income" UnitOfMeasure="dollars" Statistic="Per capita personal income" -->
+<BEAAPI>
+<Request>
+<RequestParam ParameterValue="GETDATA" ParameterName="METHOD"/>
+<RequestParam ParameterValue="8552A756-3F8B-4020-9CA6-357F7B6BB552" ParameterName="USERID"/>
+<RequestParam ParameterValue="XML" ParameterName="RESULTFORMAT"/>
+<RequestParam ParameterValue="2016" ParameterName="YEAR"/>
+<RequestParam ParameterValue="SA1" ParameterName="TABLENAME"/>
+<RequestParam ParameterValue="REGIONALINCOME" ParameterName="DATASETNAME"/>
+<RequestParam ParameterValue="3" ParameterName="LINECODE"/>
+<RequestParam ParameterValue="STATE" ParameterName="GEOFIPS"/>
+</Request>
+<Results>
+<Dimensions IsValue="0" DataType="string" Name="Code"/>
+<Dimensions IsValue="0" DataType="string" Name="GeoFips"/>
+<Dimensions IsValue="0" DataType="string" Name="GeoName"/>
+<Dimensions IsValue="0" DataType="string" Name="TimePeriod"/>
+<Dimensions IsValue="1" DataType="numeric" Name="DataValue"/>
+<Dimensions IsValue="0" DataType="string" Name="CL_UNIT"/>
+<Dimensions IsValue="0" DataType="numeric" Name="UNIT_MULT"/>
+<Data DataValue="49246" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="United States" GeoFips="00000" Code="SA1-3"/>
+<Data DataValue="38896" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Alabama" GeoFips="01000" Code="SA1-3"/>
+<Data NoteRef="*" DataValue="55646" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Alaska*" GeoFips="02000" Code="SA1-3"/>
+<Data DataValue="40415" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Arizona" GeoFips="04000" Code="SA1-3"/>
+<Data DataValue="39722" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Arkansas" GeoFips="05000" Code="SA1-3"/>
+<Data DataValue="56374" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="California" GeoFips="06000" Code="SA1-3"/>
+<Data DataValue="51999" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Colorado" GeoFips="08000" Code="SA1-3"/>
+<Data DataValue="69311" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Connecticut" GeoFips="09000" Code="SA1-3"/>
+<Data DataValue="47869" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Delaware" GeoFips="10000" Code="SA1-3"/>
+<Data DataValue="76108" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="District of Columbia" GeoFips="11000" Code="SA1-3"/>
+<Data DataValue="45953" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Florida" GeoFips="12000" Code="SA1-3"/>
+<Data DataValue="42159" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Georgia" GeoFips="13000" Code="SA1-3"/>
+<Data NoteRef="*" DataValue="50363" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Hawaii*" GeoFips="15000" Code="SA1-3"/>
+<Data DataValue="39470" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Idaho" GeoFips="16000" Code="SA1-3"/>
+<Data DataValue="51817" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Illinois" GeoFips="17000" Code="SA1-3"/>
+<Data DataValue="43097" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Indiana" GeoFips="18000" Code="SA1-3"/>
+<Data DataValue="46000" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Iowa" GeoFips="19000" Code="SA1-3"/>
+<Data DataValue="47228" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Kansas" GeoFips="20000" Code="SA1-3"/>
+<Data DataValue="38926" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Kentucky" GeoFips="21000" Code="SA1-3"/>
+<Data DataValue="42298" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Louisiana" GeoFips="22000" Code="SA1-3"/>
+<Data DataValue="44053" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Maine" GeoFips="23000" Code="SA1-3"/>
+<Data DataValue="58052" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Maryland" GeoFips="24000" Code="SA1-3"/>
+<Data DataValue="64235" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Massachusetts" GeoFips="25000" Code="SA1-3"/>
+<Data DataValue="44253" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Michigan" GeoFips="26000" Code="SA1-3"/>
+<Data DataValue="52038" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Minnesota" GeoFips="27000" Code="SA1-3"/>
+<Data DataValue="35484" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Mississippi" GeoFips="28000" Code="SA1-3"/>
+<Data DataValue="42926" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Missouri" GeoFips="29000" Code="SA1-3"/>
+<Data DataValue="42947" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Montana" GeoFips="30000" Code="SA1-3"/>
+<Data DataValue="50029" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Nebraska" GeoFips="31000" Code="SA1-3"/>
+<Data DataValue="43567" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Nevada" GeoFips="32000" Code="SA1-3"/>
+<Data DataValue="55954" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="New Hampshire" GeoFips="33000" Code="SA1-3"/>
+<Data DataValue="61472" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="New Jersey" GeoFips="34000" Code="SA1-3"/>
+<Data DataValue="38474" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="New Mexico" GeoFips="35000" Code="SA1-3"/>
+<Data DataValue="59563" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="New York" GeoFips="36000" Code="SA1-3"/>
+<Data DataValue="42244" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="North Carolina" GeoFips="37000" Code="SA1-3"/>
+<Data DataValue="54627" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="North Dakota" GeoFips="38000" Code="SA1-3"/>
+<Data DataValue="44593" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Ohio" GeoFips="39000" Code="SA1-3"/>
+<Data DataValue="42692" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Oklahoma" GeoFips="40000" Code="SA1-3"/>
+<Data DataValue="45399" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Oregon" GeoFips="41000" Code="SA1-3"/>
+<Data DataValue="50742" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Pennsylvania" GeoFips="42000" Code="SA1-3"/>
+<Data DataValue="50427" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Rhode Island" GeoFips="44000" Code="SA1-3"/>
+<Data DataValue="39517" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="South Carolina" GeoFips="45000" Code="SA1-3"/>
+<Data DataValue="47834" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="South Dakota" GeoFips="46000" Code="SA1-3"/>
+<Data DataValue="43326" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Tennessee" GeoFips="47000" Code="SA1-3"/>
+<Data DataValue="46274" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Texas" GeoFips="48000" Code="SA1-3"/>
+<Data DataValue="40925" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Utah" GeoFips="49000" Code="SA1-3"/>
+<Data DataValue="49984" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Vermont" GeoFips="50000" Code="SA1-3"/>
+<Data DataValue="52957" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Virginia" GeoFips="51000" Code="SA1-3"/>
+<Data DataValue="54579" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Washington" GeoFips="53000" Code="SA1-3"/>
+<Data DataValue="36624" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="West Virginia" GeoFips="54000" Code="SA1-3"/>
+<Data DataValue="46762" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Wisconsin" GeoFips="55000" Code="SA1-3"/>
+<Data DataValue="55116" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Wyoming" GeoFips="56000" Code="SA1-3"/>
+<Data DataValue="61299" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="New England" GeoFips="91000" Code="SA1-3"/>
+<Data DataValue="57432" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Mideast" GeoFips="92000" Code="SA1-3"/>
+<Data DataValue="46555" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Great Lakes" GeoFips="93000" Code="SA1-3"/>
+<Data DataValue="47604" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Plains" GeoFips="94000" Code="SA1-3"/>
+<Data DataValue="43337" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Southeast" GeoFips="95000" Code="SA1-3"/>
+<Data DataValue="44536" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Southwest" GeoFips="96000" Code="SA1-3"/>
+<Data DataValue="46749" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Rocky Mountain" GeoFips="97000" Code="SA1-3"/>
+<Data DataValue="54494" UNIT_MULT="0" CL_UNIT="dollars" TimePeriod="2016" GeoName="Far West" GeoFips="98000" Code="SA1-3"/>
+<Notes NoteRef="2" NoteText="Per capita personal income is total personal income divided by total midyear population."/>
+<Notes NoteRef="*" NoteText="Estimates prior to 1950 are not available for Alaska and Hawaii."/>
+<Notes NoteRef="Note--" NoteText="All dollar estimates are in current dollars (not adjusted for inflation)."/>
+<Notes NoteRef=" " NoteText="Last updated: September 26, 2017-- revised estimates for 2014-2016."/>
+</Results>
+</BEAAPI>
