@@ -1,0 +1,44 @@
+Setting Up Local SQL Server to Upload Excel to Tables
+
+(This will need to be on a local instance of SQL Server)
+
+Get 64-bit driver:
+
+	As it turns out, you can get the 64-bit driver from here.
+	https://www.microsoft.com/en-us/download/details.aspx?id=13255
+	After you download it, don't double-click it to install it, install it using the command prompt, which should be something like this:
+	"C:\Users\rshuell001\Downloads\AccessDatabaseEngine_x64.exe" /passive
+	The '/passive' is the key here because it prevents the installation from failing if you already have the 32-bit version installed (via 32-bit Office).
+	
+	From <https://stackoverflow.com/questions/29567548/microsoft-ace-oledb-12-0-cannot-be-loaded-in-process-on-a-64-bit-sql-server> 
+
+	"C:\Users\fams\Downloads\AccessDatabaseEngine_x64.exe" /passive
+	
+	(You may need to restart the computer after this install)
+
+Configuer Sql Server:
+
+	Exec sp_configure 'show advanced options', 1;
+RECONFIGURE;
+GO
+	Exec sp_configure 'Ad Hoc Distributed Queries', 1;
+RECONFIGURE;
+GO
+	EXEC master.dbo.sp_MSset_oledb_prop N'Microsoft.ACE.OLEDB.12.0' , N'AllowInProcess' , 1; 
+GO
+EXEC master.dbo.sp_MSset_oledb_prop N'Microsoft.ACE.OLEDB.12.0' , N'DynamicParameters' , 1;
+GO
+
+	From <https://www.codeproject.com/Questions/692004/The-OLE-DB-provider-Microsoft-ACE-OLEDB-for-l> 
+
+Script:
+
+	SELECT * INTO Age.Ext_UT
+	FROM OPENDATASOURCE('Microsoft.ACE.OLEDB.12.0','Data Source=C:\Users\fams\Documents\Year_2018\Data\Census\Age\Test2.xlsx;Extended Properties=Excel 12.0')...[UT$]
+	SELECT * FROM Age.Ext_UT
+	
+	SELECT * INTO Age.Ext_VT
+	FROM OPENDATASOURCE('Microsoft.ACE.OLEDB.12.0','Data Source=C:\Users\fams\Documents\Year_2018\Data\Census\Age\acs_2015_5_e_agesex_VT.xlsx;Extended Properties=Excel 12.0')...[Sheet0$]
+	SELECT * FROM Age.Ext_VT
+
+(The file name cannot have dashes.)

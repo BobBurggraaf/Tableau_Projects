@@ -1,0 +1,24 @@
+5.4 - Summary Levels
+
+The ACS Summary Files cover geographic areas based on “summary levels.” 
+A summary level specifies the content and the hierarchical relationships of the geographic elements 
+that are required to tabulate and summarize data. For example, summary level code “40” represents 
+the U.S. states, Washington D.C., and Puerto Rico; while summary level code “50” represents counties 
+and county equivalents within states.
+
+Summary levels currently contained in the ACS Summary Files stored on data.world:
+
+SummaryLevel Description
+10           Country (USA)
+20           Region
+30           Division
+40           U.S. states, Washington D.C., and Puerto Rico
+50           Counties and county equivalents
+160          Place/City
+320          Metropolitan and Micropolitan Statistical Area (MSA)
+500          Congressional District
+860          ZCTA (ZIP Census Tabulation Area - akin to ZIP Code)
+
+With the exception of the USA_All_States files, the United States level does not contain tables for geographies 
+that are always entirely within a state, such as counties and places; for those tables, go to the file for that state. 
+ZIP Census Tabulation Areas are in the United States level, because some ZIP codes span more than one state.
